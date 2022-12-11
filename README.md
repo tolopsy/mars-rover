@@ -38,15 +38,13 @@ To clean previous build, run `make clean` in terminal.
 
 ## Usage
 - To accept input from a file, simply run `./dist/app <filepath>` OR `app <file_path>`.
-    Examples: 
-        - `./dist/app input.txt`
+    Example: 
         - `app input.txt`
 
 - To accept input from the command line, use the '-p' and '-r' flags.
     -p: takes one input representing the plateau input.
     -r: takes list of inputs representing per rover landing/instruction input.
-    Example: 
-        - `./dist/app -p "Plateau:5 5" -r "Rover1 Landing:1 2 N" "Rover1 Instructions:LMLMLMLMM" "Rover2 Landing:3 3 E" "Rover2 Instructions:MMRMMRMRRM"`
+    Example:
         - `app -p "Plateau:5 5" -r "Rover1 Landing:1 2 N" "Rover1 Instructions:LMLMLMLMM" "Rover2 Landing:3 3 E" "Rover2 Instructions:MMRMMRMRRM"`
 
 - Use the -h to print the help message. For example: `app -h`
