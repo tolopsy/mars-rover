@@ -1,5 +1,19 @@
 # Mars Rover
 
+A program to distribute locomotive instructions to a cluster of robotic rovers on any plateau.
+Each rover executes a set of instructions to move and change orientation.
+
+Input contains:
+
+    - Plateau's top-right coordinates assuming the land is rectangular and the bottom-left coordinate is 0,0.
+    - Each rover's landing position in the format `x y r` where x and y represents rover's cartesian position
+      and r represents rover's orientation which can be N, E, W or S (The four cardinal points).
+    - Instructions for each rover to execute. Each instruction is a string of characters containing `L`, `R` and/or `M`.
+      `L` tells rover to rotate 90 degrees to the left. `R` tells rover to rotate 90 degrees to the right.
+      `M` tells rover to move one unit forward in the direction of its orientation.
+See more on input in the [usage](#usage) section.
+
+
 ## Pre-requisites
     - Python 3.8
     - Make utility
