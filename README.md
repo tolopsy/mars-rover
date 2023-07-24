@@ -1,6 +1,6 @@
 # Mars Rover
 
-A program to distribute locomotive instructions to a cluster of robotic rovers on any plateau.
+A program to distribute locomotive instructions to clusters of robotic rovers on a plateau with known boundary values.
 Each rover executes a set of instructions to move and change orientation.
 
 Input contains:
